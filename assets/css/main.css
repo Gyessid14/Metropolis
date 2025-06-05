@@ -2645,15 +2645,15 @@ section,
   }
 
   .close {
-    color: #aaa;
-    float: right;
+    color: #99816b;
+    flex: right;
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
   }
 
   .close:hover {
-    color: black;
+    color: rgb(216, 71, 4);
   }
 
 /* Team */
@@ -2662,6 +2662,24 @@ section,
   display: flex;
   
 }
+
+.member-img img {
+  width:400px;
+  height: 300px; /* O el valor que prefieras */
+  object-fit: cover
+  ;
+}
+
+.card-diseño {
+  transition: 3s ease;
+  
+ }
+
+ .card-diseño:hover {
+  transform: scale(1.1);
+ }
+  
+
 
 /* Final Team */
 
