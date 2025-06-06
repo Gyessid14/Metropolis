@@ -2683,3 +2683,35 @@ section,
 
 /* Final Team */
 
+/* Precios */
+
+.caja-diseño {
+  justify-content: center; /* Centra horizontalmente las columnas */
+}
+
+.centrar-caja {
+  display: flex;
+  justify-content: center;
+}
+
+.card-ancha {
+  max-width: 500px; /* O el ancho que prefieras */
+  width: 100%;
+}
+
+.pricing-item {
+  transition: transform 0.3s ease;
+}
+
+.pricing-item:hover {
+  transform: scale(1.05);
+}
+/* Final Precios */
+
+/* Logo */
+
+
+  
+
+
+
